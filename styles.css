@@ -1,3 +1,24 @@
+:root {
+  --bodycolor: #1e1e1e;
+  --background-color: #fff;
+  --textcolor1: #000;
+  --textcolor2: #616161;
+  --textcolor3: #191720;
+  --textcolor4: #323232;
+  --textcolor5: #494949;
+  --textcolor6: #2e2c49;
+  --textcolor7: #111;
+  --searchbar: #f6f6f6;
+  --searchbartext1: #afafaf;
+  --searchbartext2: #abacb4;
+  --accentcolor1: #e94339;
+  --accentcolor2: #ff5331;
+  --accentcolor3: #009b00;
+  --accentcolor4: #ffefec;
+  --footertext1: #aaa7b1;
+  --footertext2: #b5b2b2;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

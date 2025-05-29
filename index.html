@@ -11,37 +11,92 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/aa57770283.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <img src="./images/🍕.png" alt="pizza icon" />
-        <nav class="nav-main">
-          <ul>
-            <li>Restaurants</li>
-            <li>Recipe</li>
-            <li>About</li>
-            <li>Page</li>
+        <nav class="nav">
+          <img src="./images/🍕.png" alt="pizza icon" class="logo" />
+          <ul class="top-nav">
+            <li><a href="">Restaurants</a></li>
+            <li><a href="">Recipe</a></li>
+            <li><a href="">About</a></li>
+            <li>
+              <p>
+                Page
+                <i class="fa-solid fa-chevron-down"></i>
+              </p>
+              <div>
+                <a href="#">Dessert</a>
+                <a href="#">Chinese</a>
+                <a href="#">Pizza</a>
+              </div>
+            </li>
           </ul>
-        </nav>
-        <nav class="nav-top">
-          <ul>
-            <li>Login</li>
-            <li>Sign Up</li>
+          <ul class="bottom-nav">
+            <li><a href="">Login</a></li>
+            <li><a href="">Sign Up</a></li>
           </ul>
         </nav>
       </header>
       <main>
-        <section>
-          <h1>Your Favorite Food Delivery Partner</h1>
-          <p>
-            The food at your doorstep. Why starve when you have us. You hunger
-            partner. Straight out of the oven to your doorstep.
-          </p>
-          <form action="">
-            <input type="text" />
-            <input type="submit" value="Order Now" />
-          </form>
+        <section class="hero">
+          <div class="left">
+            <h1>Your Favorite Food Delivery Partner</h1>
+            <p>
+              The food at your doorstep. Why starve when you have us. You hunger
+              partner. Straight out of the oven to your doorstep.
+            </p>
+            <div class="cta">
+              <form action="">
+                <input type="text" />
+                <input type="submit" value="Order Now" />
+              </form>
+              <div class="button-div">
+                <a href=""
+                  ><img src="./images/Google Play Black Border.png" alt=""
+                /></a>
+                <a href=""
+                  ><img src="./images/App Store Black Border.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <img
+              src="./images/Images.jpg"
+              alt="a delivery man wearing an orange vest and a delivery backpack while looking at his phone"
+              class="hero-img"
+            />
+          </div>
+        </section>
+        <section class="achievement">
+          <h2>MORE THAN <span>10,000</span> DISHES TO ORDER!</h2>
+          <p>Welcome to The Biggest Network of Food Ordering & Delivery</p>
+        </section>
+        <section class="delivery">
+          <div class="menu">
+            <div></div>
+            <div></div>
+            <div><i class="fa-sharp fa-solid fa-quote-right"></i></div>
+            <div></div>
+          </div>
+          <div class="how-to"></div>
+          <div class="feedback"></div>
+        </section>
+        <section class="newsletter">
+          <div class="left">
+            <h2>Subscribe our newsletter</h2>
+            <p>
+              Browse local restaurants and businesses for delivery by entering
+              your address blow.
+            </p>
+          </div>
+          <div class="right"></div>
         </section>
       </main>
       <footer></footer>
